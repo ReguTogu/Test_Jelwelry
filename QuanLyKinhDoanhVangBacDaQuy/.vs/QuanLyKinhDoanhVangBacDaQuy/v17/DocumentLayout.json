@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|d:\\thuchanh\\nmcnpm\\jewelry-management-software\\quanlykinhdoanhvangbacdaquy\\quanlykinhdoanhvangbacdaquy\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\quanlykinhdoanhvangbacdaquy\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|d:\\thuchanh\\nmcnpm\\jewelry-management-software\\quanlykinhdoanhvangbacdaquy\\quanlykinhdoanhvangbacdaquy\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\quanlykinhdoanhvangbacdaquy\\faccountprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\faccountprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|d:\\thuchanh\\nmcnpm\\jewelry-management-software\\quanlykinhdoanhvangbacdaquy\\quanlykinhdoanhvangbacdaquy\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|d:\\thuchanh\\nmcnpm\\jewelry-management-software\\quanlykinhdoanhvangbacdaquy\\quanlykinhdoanhvangbacdaquy\\fmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\fmanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|d:\\thuchanh\\nmcnpm\\jewelry-management-software\\quanlykinhdoanhvangbacdaquy\\quanlykinhdoanhvangbacdaquy\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\quanlykinhdoanhvangbacdaquy\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|d:\\thuchanh\\nmcnpm\\jewelry-management-software\\quanlykinhdoanhvangbacdaquy\\quanlykinhdoanhvangbacdaquy\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|d:\\thuchanh\\nmcnpm\\jewelry-management-software\\quanlykinhdoanhvangbacdaquy\\quanlykinhdoanhvangbacdaquy\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|d:\\thuchanh\\nmcnpm\\jewelry-management-software\\quanlykinhdoanhvangbacdaquy\\quanlykinhdoanhvangbacdaquy\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5979ECE-129B-4487-901A-F121B8A44AE2}|QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy.csproj|solutionrelative:quanlykinhdoanhvangbacdaquy\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 198,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fManager.cs [Design]",
+              "DocumentMoniker": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fManager.cs",
+              "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\fManager.cs",
+              "ToolTip": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fManager.cs [Design]",
+              "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\fManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T10:46:43.042Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fAdmin.cs",
+              "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\fAdmin.cs",
+              "ToolTip": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fAdmin.cs [Design]",
+              "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\fAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T10:46:39.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fAccountProfile.cs [Design]",
+              "DocumentMoniker": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fAccountProfile.cs",
+              "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\fAccountProfile.cs",
+              "ToolTip": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fAccountProfile.cs [Design]",
+              "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\fAccountProfile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T10:46:36.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\DAO\\DataProvider.cs",
+              "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\DAO\\DataProvider.cs",
+              "ToolTip": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\DAO\\DataProvider.cs",
+              "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\DAO\\DataProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:43:51.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fManager.Designer.cs",
+              "DocumentMoniker": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fManager.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\fManager.Designer.cs",
+              "ToolTip": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fManager.Designer.cs",
+              "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\fManager.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:01:15.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fAdmin.cs",
+              "DocumentMoniker": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fAdmin.cs",
+              "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\fAdmin.cs",
+              "ToolTip": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fAdmin.cs",
+              "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\fAdmin.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAnwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T09:55:22.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fManager.cs",
+              "DocumentMoniker": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fManager.cs",
+              "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\fManager.cs",
+              "ToolTip": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\fManager.cs",
+              "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\fManager.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAewF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T15:09:11.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\DAO\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\DAO\\AccountDAO.cs",
+              "ToolTip": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\DAO\\AccountDAO.cs",
+              "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\DAO\\AccountDAO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T09:44:45.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\LoginForm.Designer.cs",
+              "ToolTip": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\LoginForm.Designer.cs",
+              "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAApwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T09:37:22.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\LoginForm.cs",
+              "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\LoginForm.cs",
+              "ToolTip": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\LoginForm.cs",
+              "RelativeToolTip": "QuanLyKinhDoanhVangBacDaQuy\\LoginForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T09:34:54.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\THUCHANH\\NMCNPM\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\LoginForm.cs",
+              "RelativeDocumentMoniker": "QuanLyKinhDoanhVangBacDaQuy\\LoginForm.cs",
+              "ToolTip": "E:\\CsharpProject\\Jewelry-Management-Software\\QuanLyKinhDoanhVangBacDaQuy\\QuanLyKinhDoanhVangBacDaQuy\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T09:34:39.685Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
