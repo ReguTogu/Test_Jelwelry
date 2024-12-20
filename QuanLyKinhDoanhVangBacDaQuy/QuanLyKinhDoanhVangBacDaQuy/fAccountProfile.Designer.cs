@@ -56,23 +56,25 @@
             // 
             panel2.Controls.Add(txbUserName);
             panel2.Controls.Add(label1);
-            panel2.Location = new Point(39, 10);
-            panel2.Margin = new Padding(2, 2, 2, 2);
+            panel2.Location = new Point(444, 158);
+            panel2.Margin = new Padding(2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(542, 65);
+            panel2.Size = new Size(538, 65);
             panel2.TabIndex = 2;
             // 
             // txbUserName
             // 
+            txbUserName.Anchor = AnchorStyles.Right;
             txbUserName.Location = new Point(185, 20);
-            txbUserName.Margin = new Padding(2, 2, 2, 2);
+            txbUserName.Margin = new Padding(2);
             txbUserName.Name = "txbUserName";
             txbUserName.ReadOnly = true;
-            txbUserName.Size = new Size(276, 27);
+            txbUserName.Size = new Size(272, 27);
             txbUserName.TabIndex = 1;
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Location = new Point(18, 23);
             label1.Margin = new Padding(2, 0, 2, 0);
@@ -86,23 +88,25 @@
             // 
             panel1.Controls.Add(txbDisplayName);
             panel1.Controls.Add(label2);
-            panel1.Location = new Point(39, 86);
-            panel1.Margin = new Padding(2, 2, 2, 2);
+            panel1.Location = new Point(444, 234);
+            panel1.Margin = new Padding(2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(542, 65);
+            panel1.Size = new Size(538, 65);
             panel1.TabIndex = 3;
             // 
             // txbDisplayName
             // 
+            txbDisplayName.Anchor = AnchorStyles.Right;
             txbDisplayName.Location = new Point(185, 20);
-            txbDisplayName.Margin = new Padding(2, 2, 2, 2);
+            txbDisplayName.Margin = new Padding(2);
             txbDisplayName.Name = "txbDisplayName";
             txbDisplayName.ReadOnly = true;
-            txbDisplayName.Size = new Size(276, 27);
+            txbDisplayName.Size = new Size(272, 27);
             txbDisplayName.TabIndex = 1;
             // 
             // label2
             // 
+            label2.Anchor = AnchorStyles.Right;
             label2.AutoSize = true;
             label2.Location = new Point(18, 23);
             label2.Margin = new Padding(2, 0, 2, 0);
@@ -115,24 +119,26 @@
             // 
             panel3.Controls.Add(txbPassword);
             panel3.Controls.Add(label3);
-            panel3.Location = new Point(39, 163);
-            panel3.Margin = new Padding(2, 2, 2, 2);
+            panel3.Location = new Point(444, 311);
+            panel3.Margin = new Padding(2);
             panel3.Name = "panel3";
-            panel3.Size = new Size(542, 65);
+            panel3.Size = new Size(538, 65);
             panel3.TabIndex = 4;
             // 
             // txbPassword
             // 
+            txbPassword.Anchor = AnchorStyles.Right;
             txbPassword.Location = new Point(185, 20);
-            txbPassword.Margin = new Padding(2, 2, 2, 2);
+            txbPassword.Margin = new Padding(2);
             txbPassword.Name = "txbPassword";
             txbPassword.ReadOnly = true;
-            txbPassword.Size = new Size(276, 27);
+            txbPassword.Size = new Size(272, 27);
             txbPassword.TabIndex = 1;
             txbPassword.UseSystemPasswordChar = true;
             // 
             // label3
             // 
+            label3.Anchor = AnchorStyles.Right;
             label3.AutoSize = true;
             label3.Location = new Point(19, 23);
             label3.Margin = new Padding(2, 0, 2, 0);
@@ -145,25 +151,27 @@
             // 
             panel4.Controls.Add(txbNewPass);
             panel4.Controls.Add(labelPassword);
-            panel4.Location = new Point(39, 240);
-            panel4.Margin = new Padding(2, 2, 2, 2);
+            panel4.Location = new Point(444, 388);
+            panel4.Margin = new Padding(2);
             panel4.Name = "panel4";
-            panel4.Size = new Size(542, 65);
+            panel4.Size = new Size(538, 65);
             panel4.TabIndex = 5;
             // 
             // txbNewPass
             // 
-            txbNewPass.BackColor = SystemColors.Window;
+            txbNewPass.Anchor = AnchorStyles.Right;
+            txbNewPass.BackColor = SystemColors.Control;
             txbNewPass.Location = new Point(185, 18);
-            txbNewPass.Margin = new Padding(2, 2, 2, 2);
+            txbNewPass.Margin = new Padding(2);
             txbNewPass.Name = "txbNewPass";
             txbNewPass.ReadOnly = true;
-            txbNewPass.Size = new Size(276, 27);
+            txbNewPass.Size = new Size(272, 27);
             txbNewPass.TabIndex = 1;
             txbNewPass.UseSystemPasswordChar = true;
             // 
             // labelPassword
             // 
+            labelPassword.Anchor = AnchorStyles.Right;
             labelPassword.AutoSize = true;
             labelPassword.Location = new Point(18, 21);
             labelPassword.Margin = new Padding(2, 0, 2, 0);
@@ -177,25 +185,27 @@
             // 
             panel5.Controls.Add(txbReEnterPass);
             panel5.Controls.Add(label4);
-            panel5.Location = new Point(39, 320);
-            panel5.Margin = new Padding(2, 2, 2, 2);
+            panel5.Location = new Point(444, 468);
+            panel5.Margin = new Padding(2);
             panel5.Name = "panel5";
-            panel5.Size = new Size(542, 65);
+            panel5.Size = new Size(538, 65);
             panel5.TabIndex = 6;
             // 
             // txbReEnterPass
             // 
-            txbReEnterPass.BackColor = SystemColors.Window;
+            txbReEnterPass.Anchor = AnchorStyles.Right;
+            txbReEnterPass.BackColor = SystemColors.Control;
             txbReEnterPass.Location = new Point(185, 18);
-            txbReEnterPass.Margin = new Padding(2, 2, 2, 2);
+            txbReEnterPass.Margin = new Padding(2);
             txbReEnterPass.Name = "txbReEnterPass";
             txbReEnterPass.ReadOnly = true;
-            txbReEnterPass.Size = new Size(276, 27);
+            txbReEnterPass.Size = new Size(272, 27);
             txbReEnterPass.TabIndex = 1;
             txbReEnterPass.UseSystemPasswordChar = true;
             // 
             // label4
             // 
+            label4.Anchor = AnchorStyles.Right;
             label4.AutoSize = true;
             label4.Location = new Point(18, 21);
             label4.Margin = new Padding(2, 0, 2, 0);
@@ -206,20 +216,20 @@
             // 
             // btnUpdate
             // 
-            btnUpdate.Location = new Point(492, 399);
-            btnUpdate.Margin = new Padding(2, 2, 2, 2);
+            btnUpdate.Location = new Point(893, 552);
+            btnUpdate.Margin = new Padding(2);
             btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(90, 27);
+            btnUpdate.Size = new Size(88, 27);
             btnUpdate.TabIndex = 7;
             btnUpdate.Text = "Cập nhật";
             btnUpdate.UseVisualStyleBackColor = true;
             // 
             // btnExitUpdate
             // 
-            btnExitUpdate.Location = new Point(398, 399);
-            btnExitUpdate.Margin = new Padding(2, 2, 2, 2);
+            btnExitUpdate.Location = new Point(799, 552);
+            btnExitUpdate.Margin = new Padding(2);
             btnExitUpdate.Name = "btnExitUpdate";
-            btnExitUpdate.Size = new Size(90, 27);
+            btnExitUpdate.Size = new Size(88, 27);
             btnExitUpdate.TabIndex = 8;
             btnExitUpdate.Text = "Thoát";
             btnExitUpdate.UseVisualStyleBackColor = true;
@@ -230,8 +240,9 @@
             AcceptButton = btnUpdate;
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Window;
             CancelButton = btnExitUpdate;
-            ClientSize = new Size(632, 446);
+            ClientSize = new Size(1200, 800);
             Controls.Add(btnExitUpdate);
             Controls.Add(btnUpdate);
             Controls.Add(panel5);
@@ -239,10 +250,12 @@
             Controls.Add(panel3);
             Controls.Add(panel1);
             Controls.Add(panel2);
-            Margin = new Padding(2, 2, 2, 2);
+            FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(2);
             Name = "fAccountProfile";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Thông tin cá nhân";
+            Load += fAccountProfile_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel1.ResumeLayout(false);

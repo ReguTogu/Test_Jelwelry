@@ -28,976 +28,525 @@
         /// </summary>
         private void InitializeComponent()
         {
-            menuStrip1 = new MenuStrip();
-            adminToolStripMenuItem = new ToolStripMenuItem();
-            thôngTinTàiKhoảnToolStripMenuItem = new ToolStripMenuItem();
-            thôngCáNhânToolStripMenuItem = new ToolStripMenuItem();
-            đăngXuấtToolStripMenuItem = new ToolStripMenuItem();
-            tcManager = new TabControl();
-            tbThanhToan = new TabPage();
-            panel5 = new Panel();
-            textBox4 = new TextBox();
-            textBox2 = new TextBox();
-            listView1 = new ListView();
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fManager));
+            panel7 = new Panel();
+            Sidebarbtn = new PictureBox();
+            Loginlabel = new Label();
+            Maximize_btn = new Button();
+            Minimize_btn = new Button();
+            Exitbutton = new Button();
+            sidebar = new FlowLayoutPanel();
             panel4 = new Panel();
-            button2 = new Button();
-            button1 = new Button();
-            panel1 = new Panel();
-            labelPhieuBH = new Label();
-            nmJewelryCount = new NumericUpDown();
-            btnAddJewelry = new Button();
-            cbJewelry = new ComboBox();
-            cbCategory = new ComboBox();
+            Dashboard_btn = new Button();
+            panelSell = new Panel();
+            Sell_btn = new Button();
+            panelBuy = new Panel();
+            Buy_btn = new Button();
+            panelService = new Panel();
+            Service_btn = new Button();
+            panelSearch = new Panel();
+            Search_btn = new Button();
+            panelInventory = new Panel();
+            Inven_btn = new Button();
+            menuContainer = new FlowLayoutPanel();
             panel3 = new Panel();
-            btnCheckOut = new Button();
+            Settingbtn = new Button();
+            panel1 = new Panel();
+            Info_btn = new Button();
+            panel5 = new Panel();
+            Admin_btn = new Button();
             panel2 = new Panel();
-            textBox3 = new TextBox();
-            textBox1 = new TextBox();
-            lsvBill = new ListView();
-            tpPhieuBanHang = new TabPage();
-            listView2 = new ListView();
-            columnHeader2 = new ColumnHeader();
-            columnHeader3 = new ColumnHeader();
-            columnHeader4 = new ColumnHeader();
-            columnHeader5 = new ColumnHeader();
-            columnHeader6 = new ColumnHeader();
-            columnHeader1 = new ColumnHeader();
-            tpPhieuNhapHang = new TabPage();
-            listView3 = new ListView();
-            columnHeader7 = new ColumnHeader();
-            columnHeader8 = new ColumnHeader();
-            columnHeader9 = new ColumnHeader();
-            columnHeader10 = new ColumnHeader();
-            columnHeader11 = new ColumnHeader();
-            columnHeader12 = new ColumnHeader();
-            tpTraCuuDichVu = new TabPage();
-            listView4 = new ListView();
-            columnHeader13 = new ColumnHeader();
-            columnHeader14 = new ColumnHeader();
-            columnHeader15 = new ColumnHeader();
-            tpPhieuDichVu = new TabPage();
-            listView5 = new ListView();
-            columnHeader19 = new ColumnHeader();
-            columnHeader20 = new ColumnHeader();
-            columnHeader21 = new ColumnHeader();
-            columnHeader22 = new ColumnHeader();
-            columnHeader23 = new ColumnHeader();
-            columnHeader24 = new ColumnHeader();
-            columnHeader16 = new ColumnHeader();
-            tpBaoCaoTonKho = new TabPage();
-            listView6 = new ListView();
-            columnHeader25 = new ColumnHeader();
-            columnHeader26 = new ColumnHeader();
-            columnHeader27 = new ColumnHeader();
-            columnHeader28 = new ColumnHeader();
-            columnHeader29 = new ColumnHeader();
-            columnHeader30 = new ColumnHeader();
-            tpKhachHang = new TabPage();
-            panel47 = new Panel();
-            panel49 = new Panel();
-            textBox5 = new TextBox();
-            label32 = new Label();
-            panel50 = new Panel();
-            txbServiceName = new TextBox();
-            label33 = new Label();
-            panel52 = new Panel();
-            txbSearchService = new TextBox();
-            btnSearchService = new Button();
-            panel53 = new Panel();
-            dtgvService = new DataGridView();
-            panel54 = new Panel();
-            btnShowService = new Button();
-            btnAddService = new Button();
-            columnHeader17 = new ColumnHeader();
-            columnHeader18 = new ColumnHeader();
-            columnHeader31 = new ColumnHeader();
-            columnHeader32 = new ColumnHeader();
-            columnHeader33 = new ColumnHeader();
-            columnHeader34 = new ColumnHeader();
-            columnHeader35 = new ColumnHeader();
-            columnHeader36 = new ColumnHeader();
-            menuStrip1.SuspendLayout();
-            tcManager.SuspendLayout();
-            tbThanhToan.SuspendLayout();
-            panel5.SuspendLayout();
+            Logout_btn = new Button();
+            MenuTransition = new System.Windows.Forms.Timer(components);
+            sidebarTransition = new System.Windows.Forms.Timer(components);
+            panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Sidebarbtn).BeginInit();
+            sidebar.SuspendLayout();
             panel4.SuspendLayout();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)nmJewelryCount).BeginInit();
+            panelSell.SuspendLayout();
+            panelBuy.SuspendLayout();
+            panelService.SuspendLayout();
+            panelSearch.SuspendLayout();
+            panelInventory.SuspendLayout();
+            menuContainer.SuspendLayout();
             panel3.SuspendLayout();
+            panel1.SuspendLayout();
+            panel5.SuspendLayout();
             panel2.SuspendLayout();
-            tpPhieuBanHang.SuspendLayout();
-            tpPhieuNhapHang.SuspendLayout();
-            tpTraCuuDichVu.SuspendLayout();
-            tpPhieuDichVu.SuspendLayout();
-            tpBaoCaoTonKho.SuspendLayout();
-            tpKhachHang.SuspendLayout();
-            panel47.SuspendLayout();
-            panel49.SuspendLayout();
-            panel50.SuspendLayout();
-            panel52.SuspendLayout();
-            panel53.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dtgvService).BeginInit();
-            panel54.SuspendLayout();
             SuspendLayout();
             // 
-            // menuStrip1
+            // panel7
             // 
-            menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { adminToolStripMenuItem, thôngTinTàiKhoảnToolStripMenuItem });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1244, 33);
-            menuStrip1.TabIndex = 1;
-            menuStrip1.Text = "menuStrip1";
-            menuStrip1.ItemClicked += menuStrip1_ItemClicked_1;
+            panel7.BackColor = Color.Lavender;
+            panel7.BorderStyle = BorderStyle.FixedSingle;
+            panel7.Controls.Add(Sidebarbtn);
+            panel7.Controls.Add(Loginlabel);
+            panel7.Controls.Add(Maximize_btn);
+            panel7.Controls.Add(Minimize_btn);
+            panel7.Controls.Add(Exitbutton);
+            panel7.Dock = DockStyle.Top;
+            panel7.ForeColor = SystemColors.ActiveCaptionText;
+            panel7.Location = new Point(0, 0);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(1200, 30);
+            panel7.TabIndex = 10;
             // 
-            // adminToolStripMenuItem
+            // Sidebarbtn
             // 
-            adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            adminToolStripMenuItem.Size = new Size(81, 29);
-            adminToolStripMenuItem.Text = "Admin";
-            adminToolStripMenuItem.Click += nhàCungCấpToolStripMenuItem_Click;
+            Sidebarbtn.BackgroundImageLayout = ImageLayout.Stretch;
+            Sidebarbtn.Cursor = Cursors.Hand;
+            Sidebarbtn.Image = (Image)resources.GetObject("Sidebarbtn.Image");
+            Sidebarbtn.Location = new Point(3, 0);
+            Sidebarbtn.Name = "Sidebarbtn";
+            Sidebarbtn.Size = new Size(60, 30);
+            Sidebarbtn.SizeMode = PictureBoxSizeMode.CenterImage;
+            Sidebarbtn.TabIndex = 0;
+            Sidebarbtn.TabStop = false;
+            Sidebarbtn.Click += Sidebarbtn_Click;
             // 
-            // thôngTinTàiKhoảnToolStripMenuItem
+            // Loginlabel
             // 
-            thôngTinTàiKhoảnToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { thôngCáNhânToolStripMenuItem, đăngXuấtToolStripMenuItem });
-            thôngTinTàiKhoảnToolStripMenuItem.Name = "thôngTinTàiKhoảnToolStripMenuItem";
-            thôngTinTàiKhoảnToolStripMenuItem.Size = new Size(182, 29);
-            thôngTinTàiKhoảnToolStripMenuItem.Text = "Thông tin tài khoản";
-            thôngTinTàiKhoảnToolStripMenuItem.Click += thôngTinTàiKhoảnToolStripMenuItem_Click;
+            Loginlabel.BackColor = Color.Transparent;
+            Loginlabel.Font = new Font("Fz Poppins SemBd", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Loginlabel.Location = new Point(78, 0);
+            Loginlabel.Name = "Loginlabel";
+            Loginlabel.Size = new Size(701, 28);
+            Loginlabel.TabIndex = 6;
+            Loginlabel.Text = "Quản lý cửa hàng đá quý | Admin";
+            Loginlabel.TextAlign = ContentAlignment.MiddleLeft;
+            Loginlabel.UseCompatibleTextRendering = true;
             // 
-            // thôngCáNhânToolStripMenuItem
+            // Maximize_btn
             // 
-            thôngCáNhânToolStripMenuItem.Name = "thôngCáNhânToolStripMenuItem";
-            thôngCáNhânToolStripMenuItem.Size = new Size(256, 34);
-            thôngCáNhânToolStripMenuItem.Text = "Thông tin cá nhân";
-            thôngCáNhânToolStripMenuItem.Click += thôngCáNhânToolStripMenuItem_Click;
+            Maximize_btn.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            Maximize_btn.BackColor = Color.FromArgb(173, 188, 223);
+            Maximize_btn.FlatAppearance.BorderColor = Color.Lavender;
+            Maximize_btn.FlatAppearance.BorderSize = 0;
+            Maximize_btn.FlatStyle = FlatStyle.Flat;
+            Maximize_btn.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Maximize_btn.ForeColor = SystemColors.ButtonFace;
+            Maximize_btn.Image = (Image)resources.GetObject("Maximize_btn.Image");
+            Maximize_btn.Location = new Point(1127, 0);
+            Maximize_btn.Name = "Maximize_btn";
+            Maximize_btn.Size = new Size(35, 30);
+            Maximize_btn.TabIndex = 8;
+            Maximize_btn.TabStop = false;
+            Maximize_btn.UseVisualStyleBackColor = false;
+            Maximize_btn.Click += Maximize_btn_Click;
             // 
-            // đăngXuấtToolStripMenuItem
+            // Minimize_btn
             // 
-            đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            đăngXuấtToolStripMenuItem.Size = new Size(256, 34);
-            đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
-            đăngXuấtToolStripMenuItem.Click += đăngXuấtToolStripMenuItem_Click;
+            Minimize_btn.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            Minimize_btn.BackColor = Color.FromArgb(173, 188, 223);
+            Minimize_btn.FlatAppearance.BorderColor = Color.Lavender;
+            Minimize_btn.FlatAppearance.BorderSize = 0;
+            Minimize_btn.FlatStyle = FlatStyle.Flat;
+            Minimize_btn.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Minimize_btn.ForeColor = SystemColors.ButtonHighlight;
+            Minimize_btn.Image = (Image)resources.GetObject("Minimize_btn.Image");
+            Minimize_btn.Location = new Point(1091, 0);
+            Minimize_btn.Name = "Minimize_btn";
+            Minimize_btn.Size = new Size(35, 30);
+            Minimize_btn.TabIndex = 7;
+            Minimize_btn.TabStop = false;
+            Minimize_btn.UseVisualStyleBackColor = false;
+            Minimize_btn.Click += Minimize_btn_Click;
             // 
-            // tcManager
+            // Exitbutton
             // 
-            tcManager.Controls.Add(tbThanhToan);
-            tcManager.Controls.Add(tpPhieuBanHang);
-            tcManager.Controls.Add(tpPhieuNhapHang);
-            tcManager.Controls.Add(tpTraCuuDichVu);
-            tcManager.Controls.Add(tpPhieuDichVu);
-            tcManager.Controls.Add(tpBaoCaoTonKho);
-            tcManager.Controls.Add(tpKhachHang);
-            tcManager.Location = new Point(0, 36);
-            tcManager.Name = "tcManager";
-            tcManager.SelectedIndex = 0;
-            tcManager.Size = new Size(1222, 650);
-            tcManager.TabIndex = 0;
+            Exitbutton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            Exitbutton.BackColor = Color.Firebrick;
+            Exitbutton.FlatAppearance.BorderColor = Color.Lavender;
+            Exitbutton.FlatAppearance.BorderSize = 0;
+            Exitbutton.FlatStyle = FlatStyle.Flat;
+            Exitbutton.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Exitbutton.ForeColor = SystemColors.ButtonHighlight;
+            Exitbutton.Image = (Image)resources.GetObject("Exitbutton.Image");
+            Exitbutton.Location = new Point(1163, 0);
+            Exitbutton.Name = "Exitbutton";
+            Exitbutton.Size = new Size(35, 30);
+            Exitbutton.TabIndex = 6;
+            Exitbutton.TabStop = false;
+            Exitbutton.UseVisualStyleBackColor = false;
+            Exitbutton.Click += Exitbutton_Click;
             // 
-            // tbThanhToan
+            // sidebar
             // 
-            tbThanhToan.Controls.Add(panel5);
-            tbThanhToan.Controls.Add(panel4);
-            tbThanhToan.Controls.Add(panel3);
-            tbThanhToan.Controls.Add(panel2);
-            tbThanhToan.Location = new Point(4, 34);
-            tbThanhToan.Name = "tbThanhToan";
-            tbThanhToan.Size = new Size(1214, 612);
-            tbThanhToan.TabIndex = 4;
-            tbThanhToan.Text = "Thanh toán";
-            tbThanhToan.UseVisualStyleBackColor = true;
-            // 
-            // panel5
-            // 
-            panel5.Controls.Add(textBox4);
-            panel5.Controls.Add(textBox2);
-            panel5.Controls.Add(listView1);
-            panel5.Location = new Point(511, 117);
-            panel5.Margin = new Padding(2);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(489, 332);
-            panel5.TabIndex = 9;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(170, 298);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(97, 31);
-            textBox4.TabIndex = 3;
-            textBox4.Text = "Thành tiền";
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(273, 298);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(193, 31);
-            textBox2.TabIndex = 2;
-            // 
-            // listView1
-            // 
-            listView1.Columns.AddRange(new ColumnHeader[] { columnHeader33, columnHeader34, columnHeader35, columnHeader36 });
-            listView1.Location = new Point(25, 19);
-            listView1.Margin = new Padding(2);
-            listView1.Name = "listView1";
-            listView1.Size = new Size(441, 275);
-            listView1.TabIndex = 0;
-            listView1.UseCompatibleStateImageBehavior = false;
-            listView1.View = View.Details;
+            sidebar.BackColor = Color.FromArgb(96, 0, 140);
+            sidebar.Controls.Add(panel4);
+            sidebar.Controls.Add(panelSell);
+            sidebar.Controls.Add(panelBuy);
+            sidebar.Controls.Add(panelService);
+            sidebar.Controls.Add(panelSearch);
+            sidebar.Controls.Add(panelInventory);
+            sidebar.Controls.Add(menuContainer);
+            sidebar.Controls.Add(panel2);
+            sidebar.FlowDirection = FlowDirection.TopDown;
+            sidebar.Location = new Point(0, 30);
+            sidebar.Name = "sidebar";
+            sidebar.Padding = new Padding(0, 40, 0, 0);
+            sidebar.Size = new Size(76, 770);
+            sidebar.TabIndex = 12;
             // 
             // panel4
             // 
-            panel4.Controls.Add(button2);
-            panel4.Controls.Add(button1);
-            panel4.Controls.Add(panel1);
-            panel4.Controls.Add(nmJewelryCount);
-            panel4.Controls.Add(btnAddJewelry);
-            panel4.Controls.Add(cbJewelry);
-            panel4.Controls.Add(cbCategory);
-            panel4.Location = new Point(9, 15);
-            panel4.Margin = new Padding(2);
+            panel4.Controls.Add(Dashboard_btn);
+            panel4.Location = new Point(0, 40);
+            panel4.Margin = new Padding(0);
             panel4.Name = "panel4";
-            panel4.Size = new Size(995, 98);
-            panel4.TabIndex = 10;
+            panel4.Size = new Size(282, 70);
+            panel4.TabIndex = 18;
             // 
-            // button2
+            // Dashboard_btn
             // 
-            button2.Location = new Point(502, 64);
-            button2.Margin = new Padding(2);
-            button2.Name = "button2";
-            button2.Size = new Size(120, 34);
-            button2.TabIndex = 8;
-            button2.Text = "Mã dịch vụ";
-            button2.UseVisualStyleBackColor = true;
+            Dashboard_btn.BackColor = Color.FromArgb(96, 0, 140);
+            Dashboard_btn.FlatAppearance.MouseDownBackColor = Color.FromArgb(140, 0, 190);
+            Dashboard_btn.FlatAppearance.MouseOverBackColor = Color.FromArgb(140, 0, 190);
+            Dashboard_btn.Font = new Font("Fz Poppins", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Dashboard_btn.ForeColor = Color.White;
+            Dashboard_btn.Image = (Image)resources.GetObject("Dashboard_btn.Image");
+            Dashboard_btn.ImageAlign = ContentAlignment.MiddleLeft;
+            Dashboard_btn.Location = new Point(-12, -20);
+            Dashboard_btn.Name = "Dashboard_btn";
+            Dashboard_btn.Padding = new Padding(22, 0, 0, 0);
+            Dashboard_btn.Size = new Size(320, 109);
+            Dashboard_btn.TabIndex = 1;
+            Dashboard_btn.Text = "              Dashboard";
+            Dashboard_btn.TextAlign = ContentAlignment.MiddleLeft;
+            Dashboard_btn.UseVisualStyleBackColor = false;
+            Dashboard_btn.Click += Dashboard_btn_Click;
             // 
-            // button1
+            // panelSell
             // 
-            button1.Location = new Point(25, 64);
-            button1.Margin = new Padding(2);
-            button1.Name = "button1";
-            button1.Size = new Size(130, 34);
-            button1.TabIndex = 7;
-            button1.Text = "Mã sản phẩm";
-            button1.UseVisualStyleBackColor = true;
+            panelSell.Controls.Add(Sell_btn);
+            panelSell.Location = new Point(0, 110);
+            panelSell.Margin = new Padding(0);
+            panelSell.Name = "panelSell";
+            panelSell.Size = new Size(282, 70);
+            panelSell.TabIndex = 15;
             // 
-            // panel1
+            // Sell_btn
             // 
-            panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Controls.Add(labelPhieuBH);
-            panel1.Location = new Point(823, 15);
-            panel1.Margin = new Padding(4);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(165, 51);
-            panel1.TabIndex = 6;
+            Sell_btn.BackColor = Color.FromArgb(96, 0, 140);
+            Sell_btn.FlatAppearance.MouseDownBackColor = Color.FromArgb(140, 0, 190);
+            Sell_btn.FlatAppearance.MouseOverBackColor = Color.FromArgb(140, 0, 190);
+            Sell_btn.Font = new Font("Fz Poppins", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Sell_btn.ForeColor = Color.White;
+            Sell_btn.Image = (Image)resources.GetObject("Sell_btn.Image");
+            Sell_btn.ImageAlign = ContentAlignment.MiddleLeft;
+            Sell_btn.Location = new Point(-12, -20);
+            Sell_btn.Name = "Sell_btn";
+            Sell_btn.Padding = new Padding(22, 0, 0, 0);
+            Sell_btn.Size = new Size(320, 109);
+            Sell_btn.TabIndex = 1;
+            Sell_btn.Text = "              Phiếu bán hàng";
+            Sell_btn.TextAlign = ContentAlignment.MiddleLeft;
+            Sell_btn.UseVisualStyleBackColor = false;
+            Sell_btn.Click += Sell_btn_Click;
             // 
-            // labelPhieuBH
+            // panelBuy
             // 
-            labelPhieuBH.AutoSize = true;
-            labelPhieuBH.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelPhieuBH.ForeColor = SystemColors.WindowText;
-            labelPhieuBH.Location = new Point(14, 1);
-            labelPhieuBH.Margin = new Padding(4, 0, 4, 0);
-            labelPhieuBH.Name = "labelPhieuBH";
-            labelPhieuBH.Size = new Size(139, 32);
-            labelPhieuBH.TabIndex = 5;
-            labelPhieuBH.Text = "Thanh toán";
-            labelPhieuBH.Click += labelPhieuBH_Click;
+            panelBuy.Controls.Add(Buy_btn);
+            panelBuy.Location = new Point(0, 180);
+            panelBuy.Margin = new Padding(0);
+            panelBuy.Name = "panelBuy";
+            panelBuy.Size = new Size(282, 70);
+            panelBuy.TabIndex = 16;
             // 
-            // nmJewelryCount
+            // Buy_btn
             // 
-            nmJewelryCount.Location = new Point(572, 15);
-            nmJewelryCount.Margin = new Padding(2);
-            nmJewelryCount.Minimum = new decimal(new int[] { 100, 0, 0, int.MinValue });
-            nmJewelryCount.Name = "nmJewelryCount";
-            nmJewelryCount.Size = new Size(65, 31);
-            nmJewelryCount.TabIndex = 3;
+            Buy_btn.BackColor = Color.FromArgb(96, 0, 140);
+            Buy_btn.FlatAppearance.MouseDownBackColor = Color.FromArgb(140, 0, 190);
+            Buy_btn.FlatAppearance.MouseOverBackColor = Color.FromArgb(140, 0, 190);
+            Buy_btn.Font = new Font("Fz Poppins", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Buy_btn.ForeColor = Color.White;
+            Buy_btn.Image = (Image)resources.GetObject("Buy_btn.Image");
+            Buy_btn.ImageAlign = ContentAlignment.MiddleLeft;
+            Buy_btn.Location = new Point(-12, -20);
+            Buy_btn.Name = "Buy_btn";
+            Buy_btn.Padding = new Padding(22, 0, 0, 0);
+            Buy_btn.Size = new Size(320, 109);
+            Buy_btn.TabIndex = 1;
+            Buy_btn.Text = "              Phiếu mua hàng";
+            Buy_btn.TextAlign = ContentAlignment.MiddleLeft;
+            Buy_btn.UseVisualStyleBackColor = false;
+            Buy_btn.Click += Buy_btn_Click;
             // 
-            // btnAddJewelry
+            // panelService
             // 
-            btnAddJewelry.Location = new Point(386, 15);
-            btnAddJewelry.Margin = new Padding(2);
-            btnAddJewelry.Name = "btnAddJewelry";
-            btnAddJewelry.Size = new Size(154, 34);
-            btnAddJewelry.TabIndex = 2;
-            btnAddJewelry.Text = "Thêm";
-            btnAddJewelry.UseVisualStyleBackColor = true;
+            panelService.Controls.Add(Service_btn);
+            panelService.Location = new Point(0, 250);
+            panelService.Margin = new Padding(0);
+            panelService.Name = "panelService";
+            panelService.Size = new Size(282, 70);
+            panelService.TabIndex = 16;
             // 
-            // cbJewelry
+            // Service_btn
             // 
-            cbJewelry.FormattingEnabled = true;
-            cbJewelry.Location = new Point(159, 66);
-            cbJewelry.Margin = new Padding(2);
-            cbJewelry.Name = "cbJewelry";
-            cbJewelry.Size = new Size(157, 33);
-            cbJewelry.TabIndex = 1;
+            Service_btn.BackColor = Color.FromArgb(96, 0, 140);
+            Service_btn.FlatAppearance.MouseDownBackColor = Color.FromArgb(140, 0, 190);
+            Service_btn.FlatAppearance.MouseOverBackColor = Color.FromArgb(140, 0, 190);
+            Service_btn.Font = new Font("Fz Poppins", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Service_btn.ForeColor = Color.White;
+            Service_btn.Image = (Image)resources.GetObject("Service_btn.Image");
+            Service_btn.ImageAlign = ContentAlignment.MiddleLeft;
+            Service_btn.Location = new Point(-12, -20);
+            Service_btn.Name = "Service_btn";
+            Service_btn.Padding = new Padding(22, 0, 0, 0);
+            Service_btn.Size = new Size(320, 109);
+            Service_btn.TabIndex = 1;
+            Service_btn.Text = "              Phiếu dịch vụ";
+            Service_btn.TextAlign = ContentAlignment.MiddleLeft;
+            Service_btn.UseVisualStyleBackColor = false;
+            Service_btn.Click += Service_btn_Click;
             // 
-            // cbCategory
+            // panelSearch
             // 
-            cbCategory.FormattingEnabled = true;
-            cbCategory.Location = new Point(626, 64);
-            cbCategory.Margin = new Padding(2);
-            cbCategory.Name = "cbCategory";
-            cbCategory.Size = new Size(152, 33);
-            cbCategory.TabIndex = 0;
+            panelSearch.Controls.Add(Search_btn);
+            panelSearch.Location = new Point(0, 320);
+            panelSearch.Margin = new Padding(0);
+            panelSearch.Name = "panelSearch";
+            panelSearch.Size = new Size(282, 70);
+            panelSearch.TabIndex = 17;
+            // 
+            // Search_btn
+            // 
+            Search_btn.BackColor = Color.FromArgb(96, 0, 140);
+            Search_btn.FlatAppearance.MouseDownBackColor = Color.FromArgb(140, 0, 190);
+            Search_btn.FlatAppearance.MouseOverBackColor = Color.FromArgb(140, 0, 190);
+            Search_btn.Font = new Font("Fz Poppins", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Search_btn.ForeColor = Color.White;
+            Search_btn.Image = (Image)resources.GetObject("Search_btn.Image");
+            Search_btn.ImageAlign = ContentAlignment.MiddleLeft;
+            Search_btn.Location = new Point(-12, -20);
+            Search_btn.Name = "Search_btn";
+            Search_btn.Padding = new Padding(22, 0, 0, 0);
+            Search_btn.Size = new Size(320, 109);
+            Search_btn.TabIndex = 1;
+            Search_btn.Text = "              Tra cứu dịch vụ";
+            Search_btn.TextAlign = ContentAlignment.MiddleLeft;
+            Search_btn.UseVisualStyleBackColor = false;
+            Search_btn.Click += Search_btn_Click;
+            // 
+            // panelInventory
+            // 
+            panelInventory.Controls.Add(Inven_btn);
+            panelInventory.Location = new Point(0, 390);
+            panelInventory.Margin = new Padding(0);
+            panelInventory.Name = "panelInventory";
+            panelInventory.Size = new Size(282, 70);
+            panelInventory.TabIndex = 17;
+            // 
+            // Inven_btn
+            // 
+            Inven_btn.BackColor = Color.FromArgb(96, 0, 140);
+            Inven_btn.FlatAppearance.MouseDownBackColor = Color.FromArgb(140, 0, 190);
+            Inven_btn.FlatAppearance.MouseOverBackColor = Color.FromArgb(140, 0, 190);
+            Inven_btn.Font = new Font("Fz Poppins", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Inven_btn.ForeColor = Color.White;
+            Inven_btn.Image = (Image)resources.GetObject("Inven_btn.Image");
+            Inven_btn.ImageAlign = ContentAlignment.MiddleLeft;
+            Inven_btn.Location = new Point(-12, -20);
+            Inven_btn.Name = "Inven_btn";
+            Inven_btn.Padding = new Padding(22, 0, 0, 0);
+            Inven_btn.Size = new Size(320, 109);
+            Inven_btn.TabIndex = 1;
+            Inven_btn.Text = "              Lịch sử tồn kho";
+            Inven_btn.TextAlign = ContentAlignment.MiddleLeft;
+            Inven_btn.UseVisualStyleBackColor = false;
+            Inven_btn.Click += Inven_btn_Click;
+            // 
+            // menuContainer
+            // 
+            menuContainer.BackColor = Color.FromArgb(96, 0, 140);
+            menuContainer.Controls.Add(panel3);
+            menuContainer.Controls.Add(panel1);
+            menuContainer.Controls.Add(panel5);
+            menuContainer.Location = new Point(0, 460);
+            menuContainer.Margin = new Padding(0);
+            menuContainer.Name = "menuContainer";
+            menuContainer.Size = new Size(282, 70);
+            menuContainer.TabIndex = 0;
             // 
             // panel3
             // 
-            panel3.Controls.Add(btnCheckOut);
-            panel3.Location = new Point(7, 453);
-            panel3.Margin = new Padding(2);
+            panel3.Controls.Add(Settingbtn);
+            panel3.Location = new Point(3, 3);
             panel3.Name = "panel3";
-            panel3.Size = new Size(995, 51);
-            panel3.TabIndex = 9;
+            panel3.Size = new Size(297, 70);
+            panel3.TabIndex = 16;
             // 
-            // btnCheckOut
+            // Settingbtn
             // 
-            btnCheckOut.Location = new Point(825, 9);
-            btnCheckOut.Margin = new Padding(2);
-            btnCheckOut.Name = "btnCheckOut";
-            btnCheckOut.Size = new Size(154, 34);
-            btnCheckOut.TabIndex = 4;
-            btnCheckOut.Text = "Thanh toán";
-            btnCheckOut.UseVisualStyleBackColor = true;
+            Settingbtn.BackColor = Color.FromArgb(96, 0, 140);
+            Settingbtn.FlatAppearance.MouseDownBackColor = Color.FromArgb(140, 0, 190);
+            Settingbtn.FlatAppearance.MouseOverBackColor = Color.FromArgb(140, 0, 190);
+            Settingbtn.Font = new Font("Fz Poppins", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Settingbtn.ForeColor = Color.White;
+            Settingbtn.Image = (Image)resources.GetObject("Settingbtn.Image");
+            Settingbtn.ImageAlign = ContentAlignment.MiddleLeft;
+            Settingbtn.Location = new Point(-15, -20);
+            Settingbtn.Margin = new Padding(0);
+            Settingbtn.Name = "Settingbtn";
+            Settingbtn.Padding = new Padding(22, 0, 0, 0);
+            Settingbtn.Size = new Size(320, 109);
+            Settingbtn.TabIndex = 0;
+            Settingbtn.Text = "               Setting";
+            Settingbtn.TextAlign = ContentAlignment.MiddleLeft;
+            Settingbtn.UseVisualStyleBackColor = false;
+            Settingbtn.Click += Settingbtn_Click;
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(Info_btn);
+            panel1.Location = new Point(3, 79);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(297, 70);
+            panel1.TabIndex = 16;
+            // 
+            // Info_btn
+            // 
+            Info_btn.BackColor = Color.FromArgb(96, 0, 140);
+            Info_btn.Font = new Font("Fz Poppins", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Info_btn.ForeColor = Color.White;
+            Info_btn.Image = (Image)resources.GetObject("Info_btn.Image");
+            Info_btn.ImageAlign = ContentAlignment.MiddleLeft;
+            Info_btn.Location = new Point(-15, -14);
+            Info_btn.Margin = new Padding(0);
+            Info_btn.Name = "Info_btn";
+            Info_btn.Padding = new Padding(22, 0, 0, 0);
+            Info_btn.Size = new Size(320, 88);
+            Info_btn.TabIndex = 1;
+            Info_btn.Text = "               Thông tin tài khoản";
+            Info_btn.TextAlign = ContentAlignment.MiddleLeft;
+            Info_btn.UseVisualStyleBackColor = false;
+            Info_btn.Click += Info_btn_Click;
+            // 
+            // panel5
+            // 
+            panel5.Controls.Add(Admin_btn);
+            panel5.Location = new Point(3, 155);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(297, 70);
+            panel5.TabIndex = 15;
+            // 
+            // Admin_btn
+            // 
+            Admin_btn.BackColor = Color.FromArgb(96, 0, 140);
+            Admin_btn.Font = new Font("Fz Poppins", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Admin_btn.ForeColor = Color.White;
+            Admin_btn.Image = (Image)resources.GetObject("Admin_btn.Image");
+            Admin_btn.ImageAlign = ContentAlignment.MiddleLeft;
+            Admin_btn.Location = new Point(-14, -17);
+            Admin_btn.Margin = new Padding(0);
+            Admin_btn.Name = "Admin_btn";
+            Admin_btn.Padding = new Padding(22, 0, 0, 0);
+            Admin_btn.Size = new Size(320, 90);
+            Admin_btn.TabIndex = 1;
+            Admin_btn.Text = "               Quản lý dữ liệu";
+            Admin_btn.TextAlign = ContentAlignment.MiddleLeft;
+            Admin_btn.UseVisualStyleBackColor = false;
+            Admin_btn.Click += Admin_btn_Click;
             // 
             // panel2
             // 
-            panel2.Controls.Add(textBox3);
-            panel2.Controls.Add(textBox1);
-            panel2.Controls.Add(lsvBill);
-            panel2.Location = new Point(9, 117);
-            panel2.Margin = new Padding(2);
+            panel2.Controls.Add(Logout_btn);
+            panel2.Location = new Point(0, 530);
+            panel2.Margin = new Padding(0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(490, 332);
-            panel2.TabIndex = 8;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(170, 298);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(97, 31);
-            textBox3.TabIndex = 2;
-            textBox3.Text = "Thành tiền";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(273, 298);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(193, 31);
-            textBox1.TabIndex = 1;
-            textBox1.TextChanged += textBox1_TextChanged;
-            // 
-            // lsvBill
-            // 
-            lsvBill.Columns.AddRange(new ColumnHeader[] { columnHeader17, columnHeader18, columnHeader31, columnHeader32 });
-            lsvBill.Location = new Point(25, 19);
-            lsvBill.Margin = new Padding(2);
-            lsvBill.Name = "lsvBill";
-            lsvBill.Size = new Size(441, 275);
-            lsvBill.TabIndex = 0;
-            lsvBill.UseCompatibleStateImageBehavior = false;
-            lsvBill.View = View.Details;
-            // 
-            // tpPhieuBanHang
-            // 
-            tpPhieuBanHang.Controls.Add(listView2);
-            tpPhieuBanHang.Location = new Point(4, 34);
-            tpPhieuBanHang.Name = "tpPhieuBanHang";
-            tpPhieuBanHang.Size = new Size(1214, 612);
-            tpPhieuBanHang.TabIndex = 0;
-            tpPhieuBanHang.Text = "Phiếu bán hàng";
-            tpPhieuBanHang.UseVisualStyleBackColor = true;
-            // 
-            // listView2
-            // 
-            listView2.Columns.AddRange(new ColumnHeader[] { columnHeader2, columnHeader3, columnHeader4, columnHeader5, columnHeader6, columnHeader1 });
-            listView2.GridLines = true;
-            listView2.Location = new Point(8, 49);
-            listView2.Name = "listView2";
-            listView2.Size = new Size(994, 447);
-            listView2.TabIndex = 0;
-            listView2.UseCompatibleStateImageBehavior = false;
-            listView2.View = View.Details;
-            // 
-            // columnHeader2
-            // 
-            columnHeader2.Text = "Mã phiếu";
-            columnHeader2.Width = 90;
-            // 
-            // columnHeader3
-            // 
-            columnHeader3.Text = "Mã khách hàng";
-            columnHeader3.TextAlign = HorizontalAlignment.Center;
-            columnHeader3.Width = 200;
-            // 
-            // columnHeader4
-            // 
-            columnHeader4.Text = "Mã nhân viên";
-            columnHeader4.TextAlign = HorizontalAlignment.Center;
-            columnHeader4.Width = 200;
-            // 
-            // columnHeader5
-            // 
-            columnHeader5.Text = "Mã sản phẩm";
-            columnHeader5.TextAlign = HorizontalAlignment.Center;
-            columnHeader5.Width = 200;
-            // 
-            // columnHeader6
-            // 
-            columnHeader6.Text = "Số lượng";
-            columnHeader6.TextAlign = HorizontalAlignment.Center;
-            columnHeader6.Width = 150;
-            // 
-            // columnHeader1
-            // 
-            columnHeader1.Text = "Ngày bán";
-            columnHeader1.TextAlign = HorizontalAlignment.Center;
-            columnHeader1.Width = 150;
-            // 
-            // tpPhieuNhapHang
-            // 
-            tpPhieuNhapHang.Controls.Add(listView3);
-            tpPhieuNhapHang.Location = new Point(4, 34);
-            tpPhieuNhapHang.Name = "tpPhieuNhapHang";
-            tpPhieuNhapHang.Size = new Size(1214, 612);
-            tpPhieuNhapHang.TabIndex = 0;
-            tpPhieuNhapHang.Text = "Phiếu nhập hàng";
-            tpPhieuNhapHang.UseVisualStyleBackColor = true;
-            // 
-            // listView3
-            // 
-            listView3.Columns.AddRange(new ColumnHeader[] { columnHeader7, columnHeader8, columnHeader9, columnHeader10, columnHeader11, columnHeader12 });
-            listView3.GridLines = true;
-            listView3.Location = new Point(8, 36);
-            listView3.Name = "listView3";
-            listView3.Size = new Size(994, 447);
-            listView3.TabIndex = 1;
-            listView3.UseCompatibleStateImageBehavior = false;
-            listView3.View = View.Details;
-            listView3.SelectedIndexChanged += listView3_SelectedIndexChanged_1;
-            // 
-            // columnHeader7
-            // 
-            columnHeader7.Text = "Mã phiếu";
-            columnHeader7.Width = 90;
-            // 
-            // columnHeader8
-            // 
-            columnHeader8.Text = "Mã nhà cung cấp";
-            columnHeader8.TextAlign = HorizontalAlignment.Center;
-            columnHeader8.Width = 200;
-            // 
-            // columnHeader9
-            // 
-            columnHeader9.Text = "Mã sản phẩm";
-            columnHeader9.TextAlign = HorizontalAlignment.Center;
-            columnHeader9.Width = 200;
-            // 
-            // columnHeader10
-            // 
-            columnHeader10.Text = "Ngày mua";
-            columnHeader10.TextAlign = HorizontalAlignment.Center;
-            columnHeader10.Width = 200;
-            // 
-            // columnHeader11
-            // 
-            columnHeader11.Text = "Số lượng";
-            columnHeader11.TextAlign = HorizontalAlignment.Center;
-            columnHeader11.Width = 150;
-            // 
-            // columnHeader12
-            // 
-            columnHeader12.Text = "Đơn giá";
-            columnHeader12.TextAlign = HorizontalAlignment.Center;
-            columnHeader12.Width = 150;
-            // 
-            // tpTraCuuDichVu
-            // 
-            tpTraCuuDichVu.Controls.Add(listView4);
-            tpTraCuuDichVu.Location = new Point(4, 34);
-            tpTraCuuDichVu.Name = "tpTraCuuDichVu";
-            tpTraCuuDichVu.Size = new Size(1214, 612);
-            tpTraCuuDichVu.TabIndex = 1;
-            tpTraCuuDichVu.Text = "Tra cứu dịch vụ";
-            tpTraCuuDichVu.UseVisualStyleBackColor = true;
-            // 
-            // listView4
-            // 
-            listView4.Columns.AddRange(new ColumnHeader[] { columnHeader13, columnHeader14, columnHeader15 });
-            listView4.GridLines = true;
-            listView4.Location = new Point(30, 32);
-            listView4.Name = "listView4";
-            listView4.Size = new Size(504, 447);
-            listView4.TabIndex = 2;
-            listView4.UseCompatibleStateImageBehavior = false;
-            listView4.View = View.Details;
-            // 
-            // columnHeader13
-            // 
-            columnHeader13.Text = "Mã dịch vụ";
-            columnHeader13.Width = 100;
-            // 
-            // columnHeader14
-            // 
-            columnHeader14.Text = "Tên dịch vụ";
-            columnHeader14.TextAlign = HorizontalAlignment.Center;
-            columnHeader14.Width = 200;
-            // 
-            // columnHeader15
-            // 
-            columnHeader15.Text = "Đơn giá";
-            columnHeader15.TextAlign = HorizontalAlignment.Center;
-            columnHeader15.Width = 200;
-            // 
-            // tpPhieuDichVu
-            // 
-            tpPhieuDichVu.Controls.Add(listView5);
-            tpPhieuDichVu.Location = new Point(4, 34);
-            tpPhieuDichVu.Name = "tpPhieuDichVu";
-            tpPhieuDichVu.Size = new Size(1214, 612);
-            tpPhieuDichVu.TabIndex = 2;
-            tpPhieuDichVu.Text = "Phiếu dịch vụ";
-            tpPhieuDichVu.UseVisualStyleBackColor = true;
-            // 
-            // listView5
-            // 
-            listView5.Columns.AddRange(new ColumnHeader[] { columnHeader19, columnHeader20, columnHeader21, columnHeader22, columnHeader23, columnHeader24, columnHeader16 });
-            listView5.GridLines = true;
-            listView5.Location = new Point(18, 35);
-            listView5.Name = "listView5";
-            listView5.Size = new Size(964, 447);
-            listView5.TabIndex = 3;
-            listView5.UseCompatibleStateImageBehavior = false;
-            listView5.View = View.Details;
-            // 
-            // columnHeader19
-            // 
-            columnHeader19.Text = "Mã hóa đơn";
-            columnHeader19.Width = 110;
-            // 
-            // columnHeader20
-            // 
-            columnHeader20.Text = "Mã khách hàng";
-            columnHeader20.TextAlign = HorizontalAlignment.Center;
-            columnHeader20.Width = 150;
-            // 
-            // columnHeader21
-            // 
-            columnHeader21.Text = "Mã nhân viên";
-            columnHeader21.TextAlign = HorizontalAlignment.Center;
-            columnHeader21.Width = 150;
-            // 
-            // columnHeader22
-            // 
-            columnHeader22.Text = "Mã dịch vụ";
-            columnHeader22.TextAlign = HorizontalAlignment.Center;
-            columnHeader22.Width = 150;
-            // 
-            // columnHeader23
-            // 
-            columnHeader23.Text = "Số lượng";
-            columnHeader23.TextAlign = HorizontalAlignment.Center;
-            columnHeader23.Width = 100;
-            // 
-            // columnHeader24
-            // 
-            columnHeader24.Text = "Đơn giá";
-            columnHeader24.TextAlign = HorizontalAlignment.Center;
-            columnHeader24.Width = 150;
-            // 
-            // columnHeader16
-            // 
-            columnHeader16.Text = "Ngày bán";
-            columnHeader16.TextAlign = HorizontalAlignment.Center;
-            columnHeader16.Width = 150;
-            // 
-            // tpBaoCaoTonKho
-            // 
-            tpBaoCaoTonKho.Controls.Add(listView6);
-            tpBaoCaoTonKho.Location = new Point(4, 34);
-            tpBaoCaoTonKho.Name = "tpBaoCaoTonKho";
-            tpBaoCaoTonKho.Size = new Size(1214, 612);
-            tpBaoCaoTonKho.TabIndex = 3;
-            tpBaoCaoTonKho.Text = "Báo cáo tồn kho";
-            tpBaoCaoTonKho.UseVisualStyleBackColor = true;
-            // 
-            // listView6
-            // 
-            listView6.Columns.AddRange(new ColumnHeader[] { columnHeader25, columnHeader26, columnHeader27, columnHeader28, columnHeader29, columnHeader30 });
-            listView6.GridLines = true;
-            listView6.Location = new Point(8, 36);
-            listView6.Name = "listView6";
-            listView6.Size = new Size(994, 447);
-            listView6.TabIndex = 3;
-            listView6.UseCompatibleStateImageBehavior = false;
-            listView6.View = View.Details;
-            // 
-            // columnHeader25
-            // 
-            columnHeader25.Text = "     Mã ";
-            columnHeader25.Width = 90;
-            // 
-            // columnHeader26
-            // 
-            columnHeader26.Text = "Mã sản phẩm";
-            columnHeader26.TextAlign = HorizontalAlignment.Center;
-            columnHeader26.Width = 200;
-            // 
-            // columnHeader27
-            // 
-            columnHeader27.Text = "Loại giao dịch";
-            columnHeader27.TextAlign = HorizontalAlignment.Center;
-            columnHeader27.Width = 200;
-            // 
-            // columnHeader28
-            // 
-            columnHeader28.Text = "Ngày";
-            columnHeader28.TextAlign = HorizontalAlignment.Center;
-            columnHeader28.Width = 200;
-            // 
-            // columnHeader29
-            // 
-            columnHeader29.Text = "Số lượng trước";
-            columnHeader29.TextAlign = HorizontalAlignment.Center;
-            columnHeader29.Width = 150;
-            // 
-            // columnHeader30
-            // 
-            columnHeader30.Text = "Số lượng sau";
-            columnHeader30.TextAlign = HorizontalAlignment.Center;
-            columnHeader30.Width = 150;
-            // 
-            // tpKhachHang
-            // 
-            tpKhachHang.Controls.Add(panel47);
-            tpKhachHang.Controls.Add(panel52);
-            tpKhachHang.Controls.Add(panel53);
-            tpKhachHang.Controls.Add(panel54);
-            tpKhachHang.Location = new Point(4, 34);
-            tpKhachHang.Name = "tpKhachHang";
-            tpKhachHang.Padding = new Padding(3);
-            tpKhachHang.Size = new Size(1214, 612);
-            tpKhachHang.TabIndex = 5;
-            tpKhachHang.Text = "Khách hàng";
-            tpKhachHang.UseVisualStyleBackColor = true;
-            // 
-            // panel47
-            // 
-            panel47.Controls.Add(panel49);
-            panel47.Controls.Add(panel50);
-            panel47.Location = new Point(604, 159);
-            panel47.Margin = new Padding(2);
-            panel47.Name = "panel47";
-            panel47.Size = new Size(608, 407);
-            panel47.TabIndex = 19;
-            // 
-            // panel49
-            // 
-            panel49.Controls.Add(textBox5);
-            panel49.Controls.Add(label32);
-            panel49.Location = new Point(4, 95);
-            panel49.Margin = new Padding(2);
-            panel49.Name = "panel49";
-            panel49.Size = new Size(595, 81);
-            panel49.TabIndex = 3;
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(174, 25);
-            textBox5.Margin = new Padding(2);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(344, 31);
-            textBox5.TabIndex = 2;
-            // 
-            // label32
-            // 
-            label32.AutoSize = true;
-            label32.Location = new Point(28, 31);
-            label32.Margin = new Padding(2, 0, 2, 0);
-            label32.Name = "label32";
-            label32.Size = new Size(38, 25);
-            label32.TabIndex = 0;
-            label32.Text = "Tên";
-            // 
-            // panel50
-            // 
-            panel50.Controls.Add(txbServiceName);
-            panel50.Controls.Add(label33);
-            panel50.Location = new Point(2, 10);
-            panel50.Margin = new Padding(2);
-            panel50.Name = "panel50";
-            panel50.Size = new Size(595, 81);
-            panel50.TabIndex = 3;
-            // 
-            // txbServiceName
-            // 
-            txbServiceName.Location = new Point(176, 25);
-            txbServiceName.Margin = new Padding(2);
-            txbServiceName.Name = "txbServiceName";
-            txbServiceName.Size = new Size(344, 31);
-            txbServiceName.TabIndex = 1;
-            // 
-            // label33
-            // 
-            label33.AutoSize = true;
-            label33.Location = new Point(2, 31);
-            label33.Margin = new Padding(2, 0, 2, 0);
-            label33.Name = "label33";
-            label33.Size = new Size(117, 25);
-            label33.TabIndex = 0;
-            label33.Text = "Số điện thoại";
-            // 
-            // panel52
-            // 
-            panel52.Controls.Add(txbSearchService);
-            panel52.Controls.Add(btnSearchService);
-            panel52.Location = new Point(604, 5);
-            panel52.Margin = new Padding(2);
-            panel52.Name = "panel52";
-            panel52.Size = new Size(593, 150);
-            panel52.TabIndex = 20;
-            // 
-            // txbSearchService
-            // 
-            txbSearchService.Location = new Point(61, 62);
-            txbSearchService.Margin = new Padding(2);
-            txbSearchService.Name = "txbSearchService";
-            txbSearchService.Size = new Size(374, 31);
-            txbSearchService.TabIndex = 5;
-            // 
-            // btnSearchService
-            // 
-            btnSearchService.Location = new Point(472, 59);
-            btnSearchService.Margin = new Padding(2);
-            btnSearchService.Name = "btnSearchService";
-            btnSearchService.Size = new Size(112, 34);
-            btnSearchService.TabIndex = 4;
-            btnSearchService.Text = "Tìm kiếm";
-            btnSearchService.UseVisualStyleBackColor = true;
-            // 
-            // panel53
-            // 
-            panel53.Controls.Add(dtgvService);
-            panel53.Location = new Point(10, 159);
-            panel53.Margin = new Padding(2);
-            panel53.Name = "panel53";
-            panel53.Size = new Size(590, 407);
-            panel53.TabIndex = 21;
-            // 
-            // dtgvService
-            // 
-            dtgvService.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            dtgvService.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dtgvService.Location = new Point(17, 10);
-            dtgvService.Margin = new Padding(2);
-            dtgvService.Name = "dtgvService";
-            dtgvService.RowHeadersWidth = 62;
-            dtgvService.Size = new Size(559, 383);
-            dtgvService.TabIndex = 0;
-            // 
-            // panel54
-            // 
-            panel54.Controls.Add(btnShowService);
-            panel54.Controls.Add(btnAddService);
-            panel54.Location = new Point(10, 5);
-            panel54.Margin = new Padding(2);
-            panel54.Name = "panel54";
-            panel54.Size = new Size(590, 150);
-            panel54.TabIndex = 18;
-            // 
-            // btnShowService
-            // 
-            btnShowService.Location = new Point(464, 97);
-            btnShowService.Margin = new Padding(2);
-            btnShowService.Name = "btnShowService";
-            btnShowService.Size = new Size(112, 34);
-            btnShowService.TabIndex = 3;
-            btnShowService.Text = "Xem";
-            btnShowService.UseVisualStyleBackColor = true;
-            // 
-            // btnAddService
-            // 
-            btnAddService.Location = new Point(327, 97);
-            btnAddService.Margin = new Padding(2);
-            btnAddService.Name = "btnAddService";
-            btnAddService.Size = new Size(112, 34);
-            btnAddService.TabIndex = 0;
-            btnAddService.Text = "Thêm";
-            btnAddService.UseVisualStyleBackColor = true;
-            // 
-            // columnHeader17
-            // 
-            columnHeader17.Text = "Mã sản phẩm";
-            columnHeader17.Width = 125;
-            // 
-            // columnHeader18
-            // 
-            columnHeader18.Text = "Tên ";
-            columnHeader18.TextAlign = HorizontalAlignment.Center;
-            // 
-            // columnHeader31
-            // 
-            columnHeader31.Text = "Số lượng";
-            columnHeader31.TextAlign = HorizontalAlignment.Center;
-            columnHeader31.Width = 100;
-            // 
-            // columnHeader32
-            // 
-            columnHeader32.Text = "Đơn giá";
-            columnHeader32.Width = 100;
-            // 
-            // columnHeader33
-            // 
-            columnHeader33.Text = "Mã dịch vụ";
-            // 
-            // columnHeader34
-            // 
-            columnHeader34.Text = "Tên dịch vụ";
-            columnHeader34.Width = 100;
-            // 
-            // columnHeader35
-            // 
-            columnHeader35.Text = "Số lượng";
-            columnHeader35.TextAlign = HorizontalAlignment.Center;
-            columnHeader35.Width = 100;
-            // 
-            // columnHeader36
-            // 
-            columnHeader36.Text = "Đơn giá";
-            columnHeader36.TextAlign = HorizontalAlignment.Center;
-            columnHeader36.Width = 100;
+            panel2.Size = new Size(284, 70);
+            panel2.TabIndex = 17;
+            // 
+            // Logout_btn
+            // 
+            Logout_btn.BackColor = Color.FromArgb(130, 0, 190);
+            Logout_btn.Font = new Font("Fz Poppins", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Logout_btn.ForeColor = Color.White;
+            Logout_btn.Image = (Image)resources.GetObject("Logout_btn.Image");
+            Logout_btn.ImageAlign = ContentAlignment.MiddleLeft;
+            Logout_btn.Location = new Point(-12, -20);
+            Logout_btn.Name = "Logout_btn";
+            Logout_btn.Padding = new Padding(22, 0, 0, 0);
+            Logout_btn.Size = new Size(320, 109);
+            Logout_btn.TabIndex = 1;
+            Logout_btn.Text = "              Đăng xuất";
+            Logout_btn.TextAlign = ContentAlignment.MiddleLeft;
+            Logout_btn.UseVisualStyleBackColor = false;
+            Logout_btn.Click += Logout_btn_Click;
+            // 
+            // MenuTransition
+            // 
+            MenuTransition.Interval = 10;
+            MenuTransition.Tick += MenuTransition_Tick;
+            // 
+            // sidebarTransition
+            // 
+            sidebarTransition.Interval = 10;
+            sidebarTransition.Tick += sidebarTransition_Tick;
             // 
             // fManager
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1244, 650);
-            Controls.Add(tcManager);
-            Controls.Add(menuStrip1);
+            BackColor = SystemColors.Window;
+            BackgroundImageLayout = ImageLayout.None;
+            ClientSize = new Size(1200, 800);
+            Controls.Add(sidebar);
+            Controls.Add(panel7);
+            FormBorderStyle = FormBorderStyle.None;
+            IsMdiContainer = true;
             Margin = new Padding(2);
             Name = "fManager";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Quản lý kinh doanh vàng bạc đá quý";
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
-            tcManager.ResumeLayout(false);
-            tbThanhToan.ResumeLayout(false);
-            panel5.ResumeLayout(false);
-            panel5.PerformLayout();
+            panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)Sidebarbtn).EndInit();
+            sidebar.ResumeLayout(false);
             panel4.ResumeLayout(false);
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)nmJewelryCount).EndInit();
+            panelSell.ResumeLayout(false);
+            panelBuy.ResumeLayout(false);
+            panelService.ResumeLayout(false);
+            panelSearch.ResumeLayout(false);
+            panelInventory.ResumeLayout(false);
+            menuContainer.ResumeLayout(false);
             panel3.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            panel5.ResumeLayout(false);
             panel2.ResumeLayout(false);
-            panel2.PerformLayout();
-            tpPhieuBanHang.ResumeLayout(false);
-            tpPhieuNhapHang.ResumeLayout(false);
-            tpTraCuuDichVu.ResumeLayout(false);
-            tpPhieuDichVu.ResumeLayout(false);
-            tpBaoCaoTonKho.ResumeLayout(false);
-            tpKhachHang.ResumeLayout(false);
-            panel47.ResumeLayout(false);
-            panel49.ResumeLayout(false);
-            panel49.PerformLayout();
-            panel50.ResumeLayout(false);
-            panel50.PerformLayout();
-            panel52.ResumeLayout(false);
-            panel52.PerformLayout();
-            panel53.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dtgvService).EndInit();
-            panel54.ResumeLayout(false);
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-        private MenuStrip menuStrip1;
-        private ToolStripMenuItem adminToolStripMenuItem;
-        private ToolStripMenuItem thôngTinTàiKhoảnToolStripMenuItem;
-        private ToolStripMenuItem thôngCáNhânToolStripMenuItem;
-        private ToolStripMenuItem đăngXuấtToolStripMenuItem;
-        private TabControl tcManager;
-        private TabPage tpPhieuBanHang;
-        private TabPage tpPhieuNhapHang;
-        private TabPage tpTraCuuDichVu;
-        private TabPage tpPhieuDichVu;
-        private TabPage tpBaoCaoTonKho;
-        private TabPage tbThanhToan;
-        private Panel panel4;
-        private Panel panel1;
-        private Label labelPhieuBH;
-        private NumericUpDown nmJewelryCount;
-        private Button btnAddJewelry;
-        private ComboBox cbJewelry;
-        private ComboBox cbCategory;
+        private Panel panel7;
+        private Button Maximize_btn;
+        private Button Minimize_btn;
+        private Button Exitbutton;
+        private Label Loginlabel;
+        private FlowLayoutPanel sidebar;
+        private PictureBox Sidebarbtn;
+        private Panel panelSell;
+        private Button Sell_btn;
+        private FlowLayoutPanel menuContainer;
         private Panel panel3;
-        private Button btnCheckOut;
-        private Panel panel2;
-        private ListView lsvBill;
+        private Button Settingbtn;
         private Panel panel5;
-        private ListView listView1;
-        private Button button2;
-        private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private ListView listView2;
-        private ColumnHeader columnHeader2;
-        private ColumnHeader columnHeader3;
-        private ColumnHeader columnHeader4;
-        private ColumnHeader columnHeader5;
-        private ColumnHeader columnHeader6;
-        private ColumnHeader columnHeader1;
-        private ListView listView3;
-        private ColumnHeader columnHeader7;
-        private ColumnHeader columnHeader8;
-        private ColumnHeader columnHeader9;
-        private ColumnHeader columnHeader10;
-        private ColumnHeader columnHeader11;
-        private ColumnHeader columnHeader12;
-        private ListView listView4;
-        private ColumnHeader columnHeader13;
-        private ColumnHeader columnHeader14;
-        private ColumnHeader columnHeader15;
-        private ListView listView5;
-        private ColumnHeader columnHeader19;
-        private ColumnHeader columnHeader20;
-        private ColumnHeader columnHeader21;
-        private ColumnHeader columnHeader22;
-        private ColumnHeader columnHeader23;
-        private ColumnHeader columnHeader24;
-        private ListView listView6;
-        private ColumnHeader columnHeader25;
-        private ColumnHeader columnHeader26;
-        private ColumnHeader columnHeader27;
-        private ColumnHeader columnHeader28;
-        private ColumnHeader columnHeader29;
-        private ColumnHeader columnHeader30;
-        private ColumnHeader columnHeader16;
-        private TabPage tpKhachHang;
-        private Panel panel47;
-        private Panel panel49;
-        private Label label32;
-        private Panel panel50;
-        private TextBox txbServiceName;
-        private Label label33;
-        private Panel panel52;
-        private TextBox txbSearchService;
-        private Button btnSearchService;
-        private Panel panel53;
-        private DataGridView dtgvService;
-        private Panel panel54;
-        private Button btnShowService;
-        private Button btnAddService;
-        private TextBox textBox5;
-        private ColumnHeader columnHeader33;
-        private ColumnHeader columnHeader34;
-        private ColumnHeader columnHeader35;
-        private ColumnHeader columnHeader36;
-        private ColumnHeader columnHeader17;
-        private ColumnHeader columnHeader18;
-        private ColumnHeader columnHeader31;
-        private ColumnHeader columnHeader32;
+        private Button Admin_btn;
+        private Panel panelBuy;
+        private Button Buy_btn;
+        private Panel panelService;
+        private Button Service_btn;
+        private Panel panelSearch;
+        private Button Search_btn;
+        private Panel panelInventory;
+        private Button Inven_btn;
+        private Panel panel1;
+        private Button Info_btn;
+        private System.Windows.Forms.Timer MenuTransition;
+        private System.Windows.Forms.Timer sidebarTransition;
+        private Panel panel2;
+        private Button Logout_btn;
+        private Panel panel4;
+        private Button Dashboard_btn;
     }
 }

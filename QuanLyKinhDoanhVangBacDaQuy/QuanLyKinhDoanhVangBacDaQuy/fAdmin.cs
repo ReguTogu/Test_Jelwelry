@@ -30,10 +30,10 @@ namespace QuanLyKinhDoanhVangBacDaQuy
         void LoadAccountList()
         {
             //Tạo câu truy vấn
-            string query = "select MaNhanVien as ID, TenNhanVien as Tên, TaiKhoan, MatKhau from NHANVIEN";
-            string query1 = "EXEC Danh_Sach_Nhan_Vien_Theo_ID @MaNhanVien";
+            //string query = "select MaNhanVien as ID, TenNhanVien as Tên, TaiKhoan, MatKhau from NHANVIEN";
+            //string query1 = "EXEC Danh_Sach_Nhan_Vien_Theo_ID @MaNhanVien";
 
-            dtgvStaff.DataSource = DataProvider.Instance.ExecuteQuery(query1, new object[] { "3" });
+            //dtgvStaff.DataSource = DataProvider.Instance.ExecuteQuery(query1, new object[] { "3" });
         }
 
         //void LoadServiceList()
@@ -79,8 +79,12 @@ namespace QuanLyKinhDoanhVangBacDaQuy
 
         private void fAdmin_Load(object sender, EventArgs e)
         {
-
+            this.ControlBox = false;
         }
 
+        private void btnAddStaff_1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -66,64 +66,104 @@ namespace QuanLyKinhDoanhVangBacDaQuy.DAO
             return data;
         } // trả ra dòng kết quả 
 
-        public int ExecuteNonQuery(string query, object[] parameter = null) //trả về số dòng được insert delete update
+        //public int ExecuteNonQuery(string query, object[] parameter = null) //trả về số dòng được insert delete update
+        //{
+        //    int dataDone = 0;
+        //    using (SqlConnection connection = new SqlConnection(connectionSTR)) //tự giải phóng dữ liệu khai báo
+        //    {
+        //        //Mở connection
+        //        connection.Open();
+        //        //Thực thi lệnh query trên connection
+        //        SqlCommand command = new SqlCommand(query, connection);
+
+        //        if (parameter != null)
+        //        {
+        //            string[] listPara = query.Split(' ');
+        //            int i = 0;
+        //            foreach (string id in listPara)
+        //            {
+        //                if (id.Contains("@"))
+        //                {
+        //                    command.Parameters.AddWithValue(id, parameter[i]);
+        //                    i++;
+        //                }
+        //            }
+        //        }
+        //        dataDone = command.ExecuteNonQuery();
+
+        //        connection.Close();
+        //    }
+        //    return dataDone;
+        //}
+
+        public int InsertData(string query, string TenNV, string Username, string Password, string cPassword, string chucVu)
         {
-            int dataDone = 0;
+            int done = 0;
             using (SqlConnection connection = new SqlConnection(connectionSTR)) //tự giải phóng dữ liệu khai báo
             {
-                //Mở connection
                 connection.Open();
                 //Thực thi lệnh query trên connection
-                SqlCommand command = new SqlCommand(query, connection);
+                //Kiem tra username trung
+                string checkUsername = "SELECT * FROM NHANVIEN WHERE TaiKhoan = @TaiKhoan";
 
-                if (parameter != null)
+                using (SqlCommand cmd = new SqlCommand(checkUsername, connection)) 
                 {
-                    string[] listPara = query.Split(' ');
-                    int i = 0;
-                    foreach (string id in listPara)
+                    cmd.Parameters.AddWithValue("@TaiKhoan", Username);
+
+                    //Lấy dữ liệu từ câu truy vấn truyen vao bang
+                    SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                    DataTable table = new DataTable();
+                    adapter.Fill(table);
+                    if (table.Rows.Count > 0)
                     {
-                        if (id.Contains("@"))
+                        done = -1;
+                    }
+                    else
+                    {
+                        using (SqlCommand insert = new SqlCommand(query, connection))
                         {
-                            command.Parameters.AddWithValue(id, parameter[i]);
-                            i++;
+                            insert.Parameters.AddWithValue("@TenNhanVien", TenNV);
+                            insert.Parameters.AddWithValue("@TaiKhoan", Username);
+                            insert.Parameters.AddWithValue("@MatKhau", Password);
+                            insert.Parameters.AddWithValue("@ChucVu", chucVu);
+
+                            insert.ExecuteNonQuery(); //Trả về số dòng bị ảnh hưởng (insert, delete, update)
+                            done = 1;
                         }
                     }
+                    connection.Close();
                 }
-                dataDone = command.ExecuteNonQuery();
-
-                connection.Close();
+                return done;
             }
-            return dataDone;
         }
+        //public object ExecuteScalar(string query, object[] parameter = null) //trả về cột đầu tiên của các dòng
+        //{
+        //    object data = 0;
+        //    using (SqlConnection connection = new SqlConnection(connectionSTR)) //tự giải phóng dữ liệu khai báo
+        //    {
+        //        //Mở connection
+        //        connection.Open();
+        //        //Thực thi lệnh query trên connection
+        //        SqlCommand command = new SqlCommand(query, connection);
 
-        public object ExecuteScalar(string query, object[] parameter = null) //trả về cột đầu tiên của các dòng
-        {
-            object data = 0;
-            using (SqlConnection connection = new SqlConnection(connectionSTR)) //tự giải phóng dữ liệu khai báo
-            {
-                //Mở connection
-                connection.Open();
-                //Thực thi lệnh query trên connection
-                SqlCommand command = new SqlCommand(query, connection);
+        //        if (parameter != null)
+        //        {
+        //            string[] listPara = query.Split(' ');
+        //            int i = 0;
+        //            foreach (string id in listPara)
+        //            {
+        //                if (id.Contains("@"))
+        //                {
+        //                    command.Parameters.AddWithValue(id, parameter[i]);
+        //                    i++;
+        //                }
+        //            }
+        //        }
+        //        data = command.ExecuteScalar();
 
-                if (parameter != null)
-                {
-                    string[] listPara = query.Split(' ');
-                    int i = 0;
-                    foreach (string id in listPara)
-                    {
-                        if (id.Contains("@"))
-                        {
-                            command.Parameters.AddWithValue(id, parameter[i]);
-                            i++;
-                        }
-                    }
-                }
-                data = command.ExecuteScalar();
-
-                connection.Close();
-            }
-            return data;
-        }
+        //        connection.Close();
+        //    }
+        //    return data;
+        //}
     }
 }

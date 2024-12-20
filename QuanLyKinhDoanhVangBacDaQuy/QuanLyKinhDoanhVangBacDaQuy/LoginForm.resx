@@ -117,4 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Maxmize_btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAJlJREFUSEvt
+        lFEKgCAQRD1CR+gmdaO6Qd6sbmYzsQuimW716YNHpKMDC+U6nwghjHAyOsjxOgh7aGWW43UQ1oK5wRUS
+        e4G8PsKLmeVTlnKwyZlvkTsk8VrqdSGfkDwWaMiCT842FTTNUbK9oIxke0EZyab8XnBAfvHqKNs52Hw9
+        oiYQ1oIF3v2KU8mrAgumggGyxGJ55p06zp2YoLGv9jykJwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Minimize_btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAChJREFUSEtj
+        GAWjYBSMAhLBfyoBqHGYACpPMYAaNwpGwSgYBcQBBgYAYIyPcfRAy9oAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Exitbutton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAMxJREFUSEvt
+        lEEOwjAMBPMEnsaP4Ifwo+CJxhKRSpPSCnHoSJZae3fd5pBy8p/UWq9RF1+HoI26+bqO4fCIGi5Boxbu
+        tj8TIgzPJh8sYaYG8Mz9NUINsLiEnjOYD08waIRuCc/2YHt4gtEAaEus/eEJAQYBwceFJwQZmBwXDoRF
+        5ZdDOy7H+yDIQODL34/rkPPvztzavwSjAdCdOc/2YPsSDBqhC0/oOYP5JQg1wGJ4wkwNzC0JUV52q+EJ
+        GrUwvuwghN9c13PhJz+mlBdmftOPzesxdwAAAABJRU5ErkJggg==
+</value>
+  </data>
 </root>

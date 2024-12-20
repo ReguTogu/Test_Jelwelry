@@ -31,5 +31,10 @@ namespace QuanLyKinhDoanhVangBacDaQuy
         {
             this.Close();
         }
+
+        private void fAccountProfile_Load(object sender, EventArgs e)
+        {
+            this.ControlBox = false;
+        }
     }
 }
